@@ -83,10 +83,10 @@ class Mzo < Formula
     sha256 "5ba766433c30d703f6b2c17eb0b6826c6f898e5f58d89373e235f07764952314"
   end
 
-  resource "mzo" do
-    url "https://files.pythonhosted.org/packages/3f/5d/0c11d6410f8a4c7220378222b64283781775a43186393f2eb888b46510a6/mzo-0.0.2.tar.gz"
-    sha256 "bcff578601303cae8921fae06915fee5ec00816591cdbc326970f6fc499c88c7"
-  end
+  # resource "mzo" do
+  #   url "https://files.pythonhosted.org/packages/3f/5d/0c11d6410f8a4c7220378222b64283781775a43186393f2eb888b46510a6/mzo-0.0.2.tar.gz"
+  #   sha256 "bcff578601303cae8921fae06915fee5ec00816591cdbc326970f6fc499c88c7"
+  # end
 
   resource "ordered-set" do
     url "https://files.pythonhosted.org/packages/c3/1c/4ddba479a75369b31655e295463bc37e5f84acb4fa7f34548946ff0160e3/ordered-set-2.0.2.tar.gz"
