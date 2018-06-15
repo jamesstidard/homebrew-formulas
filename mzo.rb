@@ -179,8 +179,6 @@ class Mzo < Formula
   end
 
   def install
-    venv = virtualenv_create(libexec, "python3")
-    system libexec/"bin/pip", "install", "pipenv"
-
+    virtualenv_install_with_resources
   end
 end
