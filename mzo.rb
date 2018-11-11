@@ -4,8 +4,8 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.0.6.tar.gz"
-  sha256 "36814add185e00aa4f7aa06e7a8ff9a5b99d2fa5646011b24ffa01563a9331f1"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.0.7.tar.gz"
+  sha256 "b1bb42d0a94cea118cc2f3f131c5fc106cadfc17cecda3149522242c7bda4663"
 
   depends_on "python"
 
@@ -49,29 +49,14 @@ class Mzo < Formula
     sha256 "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"
   end
 
-  resource "dateparser" do
-    url "https://files.pythonhosted.org/packages/e7/87/fc2ab653e628e2e51e00115bc9cb14c31afdd03acb710f137056a1c13f7c/dateparser-0.7.0.tar.gz"
-    sha256 "940828183c937bcec530753211b70f673c0a9aab831e43273489b310538dff86"
-  end
-
   resource "httptools" do
     url "https://files.pythonhosted.org/packages/a3/75/40cdb732e8ef547d9f34ceb83c43ea7188c0ffb719ddc6a1ad160464292d/httptools-0.0.11.tar.gz"
     sha256 "04c7703bbef0e8ca28b09811547352b8c7c20549eab70dc24e536bb24fd2b7c5"
   end
 
-  resource "humanize" do
-    url "https://files.pythonhosted.org/packages/8c/e0/e512e4ac6d091fc990bbe13f9e0378f34cf6eecd1c6c268c9e598dcf5bb9/humanize-0.5.1.tar.gz"
-    sha256 "a43f57115831ac7c70de098e6ac46ac13be00d69abbf60bdcac251344785bb19"
-  end
-
   resource "idna" do
     url "https://files.pythonhosted.org/packages/65/c4/80f97e9c9628f3cac9b98bfca0402ede54e0563b56482e3e6e45c43c4935/idna-2.7.tar.gz"
     sha256 "684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16"
-  end
-
-  resource "maya" do
-    url "https://files.pythonhosted.org/packages/c5/d5/f46efc6c460f3d0a2fa3344a28643f300c8b2cf567d09760952ab08c6bbb/maya-0.5.0.tar.gz"
-    sha256 "6f63bc69aa77309fc220bc02618da8701a21da87c2e7a747ee5ccd56a907c3a5"
   end
 
   resource "multidict" do
@@ -84,11 +69,6 @@ class Mzo < Formula
   resource "ordered-set" do
     url "https://files.pythonhosted.org/packages/c3/dd/abe09fe9b0022ce5a37489c5c237cf7d50ae2e8807691b03321e7062f816/ordered-set-3.0.2.tar.gz"
     sha256 "7d292b866fa44f339ac6e624e3d338accfb415ce0a8431595d51990fbdf61d3b"
-  end
-
-  resource "pendulum" do
-    url "https://files.pythonhosted.org/packages/ca/a5/0f9fe22bae01ba13b823a38da280dc5823f739ff68d8e130def665655925/pendulum-1.5.1.tar.gz"
-    sha256 "738878168eb26e5446da5d1f7b3312ae993a542061be8882099c00ef4866b1a2"
   end
 
   resource "pycparser" do
@@ -106,21 +86,6 @@ class Mzo < Formula
     sha256 "88f9287c0174266bb0d8cedd395cfba9c58e87e5ad86b2ce58859bc11be3cf02"
   end
 
-  resource "pytz" do
-    url "https://files.pythonhosted.org/packages/cd/71/ae99fc3df1b1c5267d37ef2c51b7d79c44ba8a5e37b48e3ca93b4d74d98b/pytz-2018.7.tar.gz"
-    sha256 "31cb35c89bd7d333cd32c5f278fca91b523b0834369e757f4c5641ea252236ca"
-  end
-
-  resource "pytzdata" do
-    url "https://files.pythonhosted.org/packages/d9/27/04b261a2d24a2658159e502fb01e9579f7a42d7a1c51ca5023190dff126b/pytzdata-2018.7.tar.gz"
-    sha256 "10c74b0cfc51a9269031f86ecd11096c9c6a141f5bb15a3b8a88f9979f6361e2"
-  end
-
-  resource "regex" do
-    url "https://files.pythonhosted.org/packages/a7/5f/9147243aa851f77b5321d19251b58efe3170a52c4ed81fadf46bc1cd9f49/regex-2018.11.07.tar.gz"
-    sha256 "7bfb6e13ed8195513160550c3a82c49da8bbc6df5d149089cd37f51f36eddd39"
-  end
-
   resource "Sanic" do
     url "https://files.pythonhosted.org/packages/be/e9/67be27d7a5564c6666ef35f3a395a3dedca4197b6c301a979da69ca8445d/sanic-0.8.3.tar.gz"
     sha256 "ba2d3c493a885fbdd5434856890875e6f44d61ffaf65d22681e9a3b1bcc55647"
@@ -131,11 +96,6 @@ class Mzo < Formula
     sha256 "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
   end
 
-  resource "snaptime" do
-    url "https://files.pythonhosted.org/packages/f3/f4/cb818c9bfdac4605f13296f7fcfe068aee7d1c3aa89f8cc22a064c1fab20/snaptime-0.2.4.tar.gz"
-    sha256 "e3f1eb89043d58d30721ab98cb65023f1a4c2740e3b197704298b163c92d508b"
-  end
-
   resource "terminaltables" do
     url "https://files.pythonhosted.org/packages/9b/c4/4a21174f32f8a7e1104798c445dacdc1d4df86f2f26722767034e4de4bff/terminaltables-3.1.0.tar.gz"
     sha256 "f3eb0eb92e3833972ac36796293ca0906e998dc3be91fbe1f8615b331b853b81"
@@ -144,11 +104,6 @@ class Mzo < Formula
   resource "toml" do
     url "https://files.pythonhosted.org/packages/b9/19/5cbd78eac8b1783671c40e34bb0fa83133a06d340a38b55c645076d40094/toml-0.10.0.tar.gz"
     sha256 "229f81c57791a41d65e399fc06bf0848bab550a9dfd5ed66df18ce5f05e73d5c"
-  end
-
-  resource "tzlocal" do
-    url "https://files.pythonhosted.org/packages/cb/89/e3687d3ed99bc882793f82634e9824e62499fdfdc4b1ae39e211c5b05017/tzlocal-1.5.1.tar.gz"
-    sha256 "4ebeb848845ac898da6519b9b31879cf13b6626f7184c496037b818e238f2c4e"
   end
 
   resource "ujson" do
