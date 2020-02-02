@@ -4,14 +4,14 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.0.tar.gz"
-  sha256 "1b0301786158bac862764539ec48621bf53959a09f84b513c32646965c7d3c29"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.2.tar.gz"
+  sha256 "48be345bf165d6d2412a71d559ed5fa2b0770008ac92b374bc0ba726f3c9ea09"
 
   depends_on "python"
 
   resource "aioconsole" do
-    url "https://files.pythonhosted.org/packages/c0/a2/e67a62f735d60a8e433db212446c1010861d44ff0080fb758a604b79dde7/aioconsole-0.1.10.tar.gz"
-    sha256 "3fab07073648d70d8345e0eb745bd81fcd02b5e2b080c4663faea8c8ab281c0a"
+    url "https://files.pythonhosted.org/packages/c4/68/56b09bf94aff8e02a6080493b3f85bdf7ddea7e4f264e6a90a158e064898/aioconsole-0.1.15.tar.gz"
+    sha256 "498e567805b74c1ecf4501d28e48727e8e77af8d6a0b8f1b7aa9a4842e02743d"
   end
 
   resource "aiofiles" do
@@ -20,23 +20,28 @@ class Mzo < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/70/27/6098b4b60a3302a97f8ec97eb85d42f55a2fa904da4a369235a8e3b84352/aiohttp-3.4.4.tar.gz"
-    sha256 "51afec6ffa50a9da4cdef188971a802beb1ca8e8edb40fa429e5e529db3475fa"
+    url "https://files.pythonhosted.org/packages/00/94/f9fa18e8d7124d7850a5715a0b9c0584f7b9375d331d35e157cee50f27cc/aiohttp-3.6.2.tar.gz"
+    sha256 "259ab809ff0727d0e834ac5e8a283dc5e3e0ecc30c4d80b3cd17a4139ce1f326"
   end
 
-  resource "async_timeout" do
+  resource "async-timeout" do
     url "https://files.pythonhosted.org/packages/a1/78/aae1545aba6e87e23ecab8d212b58bb70e72164b67eb090b81bb17ad38e3/async-timeout-3.0.1.tar.gz"
     sha256 "0c3c816a028d47f659d6ff5c745cb2acf1f966da1fe5c19c77a70282b25f4c5f"
   end
 
   resource "attrs" do
-    url "https://files.pythonhosted.org/packages/0f/9e/26b1d194aab960063b266170e53c39f73ea0d0d3f5ce23313e0ec8ee9bdf/attrs-18.2.0.tar.gz"
-    sha256 "10cbf6e27dbce8c30807caf056c8eb50917e0eaafe86347671b57254006c3e69"
+    url "https://files.pythonhosted.org/packages/98/c3/2c227e66b5e896e15ccdae2e00bbc69aa46e9a8ce8869cc5fa96310bf612/attrs-19.3.0.tar.gz"
+    sha256 "f7b7ce16570fe9965acd6d30101a28f62fb4a7f9e926b3bbc9b61f8b04247e72"
+  end
+
+  resource "certifi" do
+    url "https://files.pythonhosted.org/packages/41/bf/9d214a5af07debc6acf7f3f257265618f1db242a3f8e49a9b516f24523a6/certifi-2019.11.28.tar.gz"
+    sha256 "25b64c7da4cd7479594d035c08c2d809eb4aab3a26e5a990ea98cc450c320f1f"
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/e7/a7/4cd50e57cc6f436f1cc3a7e8fa700ff9b8b4d471620629074913e3735fb2/cffi-1.11.5.tar.gz"
-    sha256 "e90f17980e6ab0f3c2f3730e56d1fe9bcba1891eeea58966e89d352492cc74f4"
+    url "https://files.pythonhosted.org/packages/2d/bf/960e5a422db3ac1a5e612cb35ca436c3fc985ed4b7ed13a1b4879006f450/cffi-1.13.2.tar.gz"
+    sha256 "599a1e8ff057ac530c9ad1778293c665cb81a791421f46922d80a86473c13346"
   end
 
   resource "chardet" do
@@ -49,26 +54,56 @@ class Mzo < Formula
     sha256 "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"
   end
 
+  resource "h11" do
+    url "https://files.pythonhosted.org/packages/cd/de/1ea0125d32541f33e59d59bcad9260cf110c150c3db6fdea0e55159ba26d/h11-0.8.1.tar.gz"
+    sha256 "acca6a44cb52a32ab442b1779adf0875c443c689e9e028f8d831a3769f9c5208"
+  end
+
+  resource "h2" do
+    url "https://files.pythonhosted.org/packages/56/73/0bc3a2f4238bdfbd9b0dc41a972fb558d96e8580ef2a37129ee5a54fa04e/h2-3.1.1.tar.gz"
+    sha256 "b8a32bd282594424c0ac55845377eea13fa54fe4a8db012f3a198ed923dc3ab4"
+  end
+
+  resource "hpack" do
+    url "https://files.pythonhosted.org/packages/44/f1/b4440e46e265a29c0cb7b09b6daec6edf93c79eae713cfed93fbbf8716c5/hpack-3.0.0.tar.gz"
+    sha256 "8eec9c1f4bfae3408a3f30500261f7e6a65912dc138526ea054f9ad98892e9d2"
+  end
+
+  resource "hstspreload" do
+    url "https://files.pythonhosted.org/packages/89/c2/dddb807110333888c4349454481f238216433e74c149fe63c29dfe9618c9/hstspreload-2020.2.1.tar.gz"
+    sha256 "93c360debe16a74821ebd04eb9844597da904b99db1b7e6280c778f4df422eb1"
+  end
+
   resource "httptools" do
-    url "https://files.pythonhosted.org/packages/a3/75/40cdb732e8ef547d9f34ceb83c43ea7188c0ffb719ddc6a1ad160464292d/httptools-0.0.11.tar.gz"
-    sha256 "04c7703bbef0e8ca28b09811547352b8c7c20549eab70dc24e536bb24fd2b7c5"
+    url "https://files.pythonhosted.org/packages/1b/03/215969db11abe8741e9c266a4cbe803a372bd86dd35fa0084c4df6d4bd00/httptools-0.0.13.tar.gz"
+    sha256 "e00cbd7ba01ff748e494248183abc6e153f49181169d8a3d41bb49132ca01dfc"
+  end
+
+  resource "httpx" do
+    url "https://files.pythonhosted.org/packages/56/ab/5ed5c3a6383c8b0b8915fb281b6b038ec5a666fe3a4b217e6675a633da7a/httpx-0.9.3.tar.gz"
+    sha256 "1291c5ad8c872668549abb99bf8d25d25bbcac4bac13863dee54252d66e90e6f"
+  end
+
+  resource "hyperframe" do
+    url "https://files.pythonhosted.org/packages/e6/7f/9a4834af1010dc1d570d5f394dfd9323a7d7ada7d25586bd299fc4cb0356/hyperframe-5.2.0.tar.gz"
+    sha256 "a9f5c17f2cc3c719b917c4f33ed1c61bd1f8dfac4b1bd23b7c80b3400971b41f"
   end
 
   resource "idna" do
-    url "https://files.pythonhosted.org/packages/65/c4/80f97e9c9628f3cac9b98bfca0402ede54e0563b56482e3e6e45c43c4935/idna-2.7.tar.gz"
-    sha256 "684a38a6f903c1d71d6d5fac066b58d7768af4de2b832e426ec79c30daa94a16"
+    url "https://files.pythonhosted.org/packages/ad/13/eb56951b6f7950cadb579ca166e448ba77f9d24efc03edd7e55fa57d04b7/idna-2.8.tar.gz"
+    sha256 "c357b3f628cf53ae2c4c05627ecc484553142ca23264e593d327bcde5e9c3407"
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/b3/5f/5c29cde8511c95fad045b9ecaf2e76f0da18761e8363a82594f5a58c2ced/multidict-4.4.2.tar.gz"
-    sha256 "3c11e92c3dfc321014e22fb442bc9eb70e01af30d6ce442026b0c35723448c66"
+    url "https://files.pythonhosted.org/packages/b6/22/ae21cedaa0e6d35e84e8ab57700dcf3d4609421ebe113e1aaafc468eec42/multidict-4.7.4.tar.gz"
+    sha256 "d7d428488c67b09b26928950a395e41cc72bb9c3d5abfe9f0521940ee4f796d4"
   end
 
 
 
   resource "ordered-set" do
-    url "https://files.pythonhosted.org/packages/c3/dd/abe09fe9b0022ce5a37489c5c237cf7d50ae2e8807691b03321e7062f816/ordered-set-3.0.2.tar.gz"
-    sha256 "7d292b866fa44f339ac6e624e3d338accfb415ce0a8431595d51990fbdf61d3b"
+    url "https://files.pythonhosted.org/packages/a3/b7/d4d69641cbe707a45c23b190f2d717466ba5accc4c70b5f7a8a450387895/ordered-set-3.1.1.tar.gz"
+    sha256 "a7bfa858748c73b096e43db14eb23e2bc714a503f990c89fac8fab9b0ee79724"
   end
 
   resource "pycparser" do
@@ -82,18 +117,28 @@ class Mzo < Formula
   end
 
   resource "python-dateutil" do
-    url "https://files.pythonhosted.org/packages/0e/01/68747933e8d12263d41ce08119620d9a7e5eb72c876a3442257f74490da0/python-dateutil-2.7.5.tar.gz"
-    sha256 "88f9287c0174266bb0d8cedd395cfba9c58e87e5ad86b2ce58859bc11be3cf02"
+    url "https://files.pythonhosted.org/packages/be/ed/5bbc91f03fa4c839c4c7360375da77f9659af5f7086b7a7bdda65771c8e0/python-dateutil-2.8.1.tar.gz"
+    sha256 "73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"
   end
 
-  resource "Sanic" do
-    url "https://files.pythonhosted.org/packages/be/e9/67be27d7a5564c6666ef35f3a395a3dedca4197b6c301a979da69ca8445d/sanic-0.8.3.tar.gz"
-    sha256 "ba2d3c493a885fbdd5434856890875e6f44d61ffaf65d22681e9a3b1bcc55647"
+  resource "rfc3986" do
+    url "https://files.pythonhosted.org/packages/34/c9/bcba83f13f628e947e23a0e54e18d0a6f13e5d03ca4ec04def0105c81bfc/rfc3986-1.3.2.tar.gz"
+    sha256 "0344d0bd428126ce554e7ca2b61787b6a28d2bbd19fc70ed2dd85efe31176405"
+  end
+
+  resource "sanic" do
+    url "https://files.pythonhosted.org/packages/12/f6/cd3393998a7d68dc502053e5a87b6de805983e1a29218a28ceed2dcc3584/sanic-19.12.2.tar.gz"
+    sha256 "0760b568245917481d65456721c1c50ba72e53e15a191392277751377f2cf770"
   end
 
   resource "six" do
-    url "https://files.pythonhosted.org/packages/16/d8/bc6316cf98419719bd59c91742194c111b6f2e85abac88e496adefaf7afe/six-1.11.0.tar.gz"
-    sha256 "70e8a77beed4562e7f14fe23a786b54f6296e34344c23bc42f07b15018ff98e9"
+    url "https://files.pythonhosted.org/packages/21/9f/b251f7f8a76dec1d6651be194dfba8fb8d7781d10ab3987190de8391d08e/six-1.14.0.tar.gz"
+    sha256 "236bdbdce46e6e6a3d61a337c0f8b763ca1e8717c03b369e87a7ec7ce1319c0a"
+  end
+
+  resource "sniffio" do
+    url "https://files.pythonhosted.org/packages/ad/e5/63342a59850c6d285af0df92c86a778e1753235d6d392b9ae184217af852/sniffio-1.1.0.tar.gz"
+    sha256 "8e3810100f69fe0edd463d02ad407112542a11ffdc29f67db2bf3771afb87a21"
   end
 
   resource "terminaltables" do
@@ -112,18 +157,18 @@ class Mzo < Formula
   end
 
   resource "uvloop" do
-    url "https://files.pythonhosted.org/packages/46/60/8e46188acba22369848d5e9bcbee3ca04b68a12d0598bd625c1a3994f5df/uvloop-0.11.3.tar.gz"
-    sha256 "fd5042d0a2ea07b92d0e2190f7711feb91cde31cf2bf1829e2e8c4c0fdd1f1aa"
+    url "https://files.pythonhosted.org/packages/84/2e/462e7a25b787d2b40cf6c9864a9e702f358349fc9cfb77e83c38acb73048/uvloop-0.14.0.tar.gz"
+    sha256 "123ac9c0c7dd71464f58f1b4ee0bbd81285d96cdda8bc3519281b8973e3a461e"
   end
 
   resource "websockets" do
-    url "https://files.pythonhosted.org/packages/4b/c6/026da2eeed75a49dd0b72a0c7ed6ee5cb2943e396ca9753eabff7359b27b/websockets-5.0.1.tar.gz"
-    sha256 "a49d315db5a7a19d55422e1678e8a1c3b9661d7296bef3179fa620cf80b12674"
+    url "https://files.pythonhosted.org/packages/e9/2b/cf738670bb96eb25cb2caf5294e38a9dc3891a6bcd8e3a51770dbc517c65/websockets-8.1.tar.gz"
+    sha256 "5c65d2da8c6bce0fca2528f69f44b2f977e06954c8512a952222cea50dad430f"
   end
 
   resource "yarl" do
-    url "https://files.pythonhosted.org/packages/43/b8/057c3e5b546ff4b24263164ecda13f6962d85c9dc477fcc0bcdcb3adb658/yarl-1.2.6.tar.gz"
-    sha256 "c8cbc21bbfa1dd7d5386d48cc814fe3d35b80f60299cdde9279046f399c3b0d8"
+    url "https://files.pythonhosted.org/packages/d6/67/6e2507586eb1cfa6d55540845b0cd05b4b77c414f6bca8b00b45483b976e/yarl-1.4.2.tar.gz"
+    sha256 "58cd9c469eced558cd81aa3f484b2924e8897049e06889e8ff2510435b7ef74b"
   end
 
 
