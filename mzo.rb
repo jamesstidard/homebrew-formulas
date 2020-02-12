@@ -4,8 +4,8 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.2.tar.gz"
-  sha256 "48be345bf165d6d2412a71d559ed5fa2b0770008ac92b374bc0ba726f3c9ea09"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.3.tar.gz"
+  sha256 "73a1a20ee5b5cb2eef9c661b8c4bc64cf8271d6813070388f4d2721a3961c3a9"
 
   depends_on "python"
 
@@ -40,8 +40,8 @@ class Mzo < Formula
   end
 
   resource "cffi" do
-    url "https://files.pythonhosted.org/packages/2d/bf/960e5a422db3ac1a5e612cb35ca436c3fc985ed4b7ed13a1b4879006f450/cffi-1.13.2.tar.gz"
-    sha256 "599a1e8ff057ac530c9ad1778293c665cb81a791421f46922d80a86473c13346"
+    url "https://files.pythonhosted.org/packages/05/54/3324b0c46340c31b909fcec598696aaec7ddc8c18a63f2db352562d3354c/cffi-1.14.0.tar.gz"
+    sha256 "2d384f4a127a15ba701207f7639d94106693b6cd64173d6c8988e2c25f3ac2b6"
   end
 
   resource "chardet" do
@@ -60,8 +60,8 @@ class Mzo < Formula
   end
 
   resource "h2" do
-    url "https://files.pythonhosted.org/packages/56/73/0bc3a2f4238bdfbd9b0dc41a972fb558d96e8580ef2a37129ee5a54fa04e/h2-3.1.1.tar.gz"
-    sha256 "b8a32bd282594424c0ac55845377eea13fa54fe4a8db012f3a198ed923dc3ab4"
+    url "https://files.pythonhosted.org/packages/08/0a/033df0fc05fe94f72517ccd393dd9ff99b1773fd198307638e6d3568a518/h2-3.2.0.tar.gz"
+    sha256 "875f41ebd6f2c44781259005b157faed1a5031df3ae5aa7bcb4628a6c0782f14"
   end
 
   resource "hpack" do
@@ -70,13 +70,13 @@ class Mzo < Formula
   end
 
   resource "hstspreload" do
-    url "https://files.pythonhosted.org/packages/89/c2/dddb807110333888c4349454481f238216433e74c149fe63c29dfe9618c9/hstspreload-2020.2.1.tar.gz"
-    sha256 "93c360debe16a74821ebd04eb9844597da904b99db1b7e6280c778f4df422eb1"
+    url "https://files.pythonhosted.org/packages/4b/85/deb8be281bedd8baeec0003471cc7a98a37f2bb3d9019fafd433cceee472/hstspreload-2020.2.5.tar.gz"
+    sha256 "e1fc3184ddf1c8b1af7143b28d76cf648fe385cf29b6d4e7bc9d8fbab98867be"
   end
 
   resource "httptools" do
-    url "https://files.pythonhosted.org/packages/1b/03/215969db11abe8741e9c266a4cbe803a372bd86dd35fa0084c4df6d4bd00/httptools-0.0.13.tar.gz"
-    sha256 "e00cbd7ba01ff748e494248183abc6e153f49181169d8a3d41bb49132ca01dfc"
+    url "https://files.pythonhosted.org/packages/d9/6f/aad92c3f090e2f74dd728d58d3bba4c832d35199814af99673ee7300b582/httptools-0.1.1.tar.gz"
+    sha256 "41b573cf33f64a8f8f3400d0a7faf48e1888582b6f6e02b82b9bd4f0bf7497ce"
   end
 
   resource "httpx" do
