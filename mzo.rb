@@ -4,8 +4,8 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.3.tar.gz"
-  sha256 "73a1a20ee5b5cb2eef9c661b8c4bc64cf8271d6813070388f4d2721a3961c3a9"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.4.tar.gz"
+  sha256 "84b44067e6aa7a733856dac8671b50e8b98c8fdfa3697f097ca051c34075fd3f"
 
   depends_on "python"
 
@@ -20,8 +20,8 @@ class Mzo < Formula
   end
 
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/00/94/f9fa18e8d7124d7850a5715a0b9c0584f7b9375d331d35e157cee50f27cc/aiohttp-3.6.2.tar.gz"
-    sha256 "259ab809ff0727d0e834ac5e8a283dc5e3e0ecc30c4d80b3cd17a4139ce1f326"
+    url "https://files.pythonhosted.org/packages/f0/f2/703dba52c7620199ea0ec8ea9a4a2f06203b4893b94f60240c2c10225043/aiohttp-4.0.0a1.tar.gz"
+    sha256 "b5036133c1ba77ed5a70208d2a021a90b76fdf8bf523ae33dae46d4f4380d86f"
   end
 
   resource "async-timeout" do
@@ -149,6 +149,11 @@ class Mzo < Formula
   resource "toml" do
     url "https://files.pythonhosted.org/packages/b9/19/5cbd78eac8b1783671c40e34bb0fa83133a06d340a38b55c645076d40094/toml-0.10.0.tar.gz"
     sha256 "229f81c57791a41d65e399fc06bf0848bab550a9dfd5ed66df18ce5f05e73d5c"
+  end
+
+  resource "typing-extensions" do
+    url "https://files.pythonhosted.org/packages/e7/dd/f1713bc6638cc3a6a23735eff6ee09393b44b96176d3296693ada272a80b/typing_extensions-3.7.4.1.tar.gz"
+    sha256 "091ecc894d5e908ac75209f10d5b4f118fbdb2eb1ede6a63544054bb1edb41f2"
   end
 
   resource "ujson" do
