@@ -4,8 +4,8 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.9.tar.gz"
-  sha256 "d7deffde919bad013f84e7ca004701c0012a1a44d5c53382e2a8ad84fffb1f07"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.2.0.tar.gz"
+  sha256 "34809216b5a90b0f57b8d42f00e958c440cdd5f1e479516315d3818b0ee8dd7b"
 
   depends_on "python"
 
