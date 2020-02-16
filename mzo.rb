@@ -4,8 +4,8 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.8.tar.gz"
-  sha256 "8158dcfdaeed0d41f1da3a4f42f404e139b06d0bfe7c97c6750ea8cdc310ba8a"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.9.tar.gz"
+  sha256 "d7deffde919bad013f84e7ca004701c0012a1a44d5c53382e2a8ad84fffb1f07"
 
   depends_on "python"
 
@@ -52,6 +52,11 @@ class Mzo < Formula
   resource "click" do
     url "https://files.pythonhosted.org/packages/f8/5c/f60e9d8a1e77005f664b76ff8aeaee5bc05d0a91798afd7f53fc998dbc47/Click-7.0.tar.gz"
     sha256 "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"
+  end
+
+  resource "fuzzywuzzy" do
+    url "https://files.pythonhosted.org/packages/11/4b/0a002eea91be6048a2b5d53c5f1b4dafd57ba2e36eea961d05086d7c28ce/fuzzywuzzy-0.18.0.tar.gz"
+    sha256 "45016e92264780e58972dca1b3d939ac864b78437422beecebb3095f8efd00e8"
   end
 
   resource "h11" do
@@ -119,6 +124,11 @@ class Mzo < Formula
   resource "python-dateutil" do
     url "https://files.pythonhosted.org/packages/be/ed/5bbc91f03fa4c839c4c7360375da77f9659af5f7086b7a7bdda65771c8e0/python-dateutil-2.8.1.tar.gz"
     sha256 "73ebfe9dbf22e832286dafa60473e4cd239f8592f699aa5adaf10050e6e1823c"
+  end
+
+  resource "python-Levenshtein" do
+    url "https://files.pythonhosted.org/packages/42/a9/d1785c85ebf9b7dfacd08938dd028209c34a0ea3b1bcdb895208bd40a67d/python-Levenshtein-0.12.0.tar.gz"
+    sha256 "033a11de5e3d19ea25c9302d11224e1a1898fe5abd23c61c7c360c25195e3eb1"
   end
 
   resource "rfc3986" do
