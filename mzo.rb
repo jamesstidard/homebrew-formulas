@@ -4,8 +4,8 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.7.tar.gz"
-  sha256 "2d16a07d29413858f50ca2c9b42884ba20debbf2e1dd759dd3bb07551f500c74"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.1.8.tar.gz"
+  sha256 "8158dcfdaeed0d41f1da3a4f42f404e139b06d0bfe7c97c6750ea8cdc310ba8a"
 
   depends_on "python"
 
@@ -70,8 +70,8 @@ class Mzo < Formula
   end
 
   resource "hstspreload" do
-    url "https://files.pythonhosted.org/packages/4b/85/deb8be281bedd8baeec0003471cc7a98a37f2bb3d9019fafd433cceee472/hstspreload-2020.2.5.tar.gz"
-    sha256 "e1fc3184ddf1c8b1af7143b28d76cf648fe385cf29b6d4e7bc9d8fbab98867be"
+    url "https://files.pythonhosted.org/packages/db/26/bb737557f8ec80e44e55506a673f888f6ac4ba177a9a9ed910e2c9f54542/hstspreload-2020.2.15.tar.gz"
+    sha256 "cfe1e9f4f01a787b8796e86fb60ff410364f46c7e854bd6270acdddb04ce1650"
   end
 
   resource "httptools" do
