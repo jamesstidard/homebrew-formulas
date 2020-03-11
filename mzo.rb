@@ -4,8 +4,8 @@ class Mzo < Formula
 
   desc "A command-line interface between you and your Monzo account."
   homepage "https://mzo.stidard.com"
-  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.2.9.tar.gz"
-  sha256 "85df8047e2e57dd9943a30c4ad26e2a31cdef153ee6f958b4dd1d72e3cb09398"
+  url "https://github.com/jamesstidard/Mzo-Cli/archive/v0.3.2.tar.gz"
+  sha256 "e8ecb4dd8f8eee008611d82b8df0cb2bc01bd30140e18b5adc1126010c19f638"
 
   depends_on "python"
 
@@ -50,8 +50,8 @@ class Mzo < Formula
   end
 
   resource "click" do
-    url "https://files.pythonhosted.org/packages/f8/5c/f60e9d8a1e77005f664b76ff8aeaee5bc05d0a91798afd7f53fc998dbc47/Click-7.0.tar.gz"
-    sha256 "5b94b49521f6456670fdb30cd82a4eca9412788a93fa6dd6df72c94d5a8ff2d7"
+    url "https://files.pythonhosted.org/packages/4e/ab/5d6bc3b697154018ef196f5b17d958fac3854e2efbc39ea07a284d4a6a9b/click-7.1.1.tar.gz"
+    sha256 "8a18b4ea89d8820c5d0c7da8a64b2c324b4dabb695804dbfea19b9be9d88c0cc"
   end
 
   resource "fuzzywuzzy" do
@@ -75,8 +75,8 @@ class Mzo < Formula
   end
 
   resource "hstspreload" do
-    url "https://files.pythonhosted.org/packages/db/26/bb737557f8ec80e44e55506a673f888f6ac4ba177a9a9ed910e2c9f54542/hstspreload-2020.2.15.tar.gz"
-    sha256 "cfe1e9f4f01a787b8796e86fb60ff410364f46c7e854bd6270acdddb04ce1650"
+    url "https://files.pythonhosted.org/packages/33/31/c7c39baf4d4f261039853644921916568100b3e6c3547f6e6d43e00d4e54/hstspreload-2020.3.4.tar.gz"
+    sha256 "5f120aa14869019e547166d5d3efa7f40dc5569bf830b130e5ba8bdef5bc9d5a"
   end
 
   resource "httptools" do
@@ -100,8 +100,8 @@ class Mzo < Formula
   end
 
   resource "multidict" do
-    url "https://files.pythonhosted.org/packages/b6/22/ae21cedaa0e6d35e84e8ab57700dcf3d4609421ebe113e1aaafc468eec42/multidict-4.7.4.tar.gz"
-    sha256 "d7d428488c67b09b26928950a395e41cc72bb9c3d5abfe9f0521940ee4f796d4"
+    url "https://files.pythonhosted.org/packages/61/b4/475114b3f1671da634f89239e61038f8742d9ac13aa34b32a05bf8022d22/multidict-4.7.5.tar.gz"
+    sha256 "aee283c49601fa4c13adc64c09c978838a7e812f85377ae130a24d7198c0331e"
   end
 
 
@@ -112,8 +112,8 @@ class Mzo < Formula
   end
 
   resource "pycparser" do
-    url "https://files.pythonhosted.org/packages/68/9e/49196946aee219aead1290e00d1e7fdeab8567783e83e1b9ab5585e6206a/pycparser-2.19.tar.gz"
-    sha256 "a988718abfad80b6b157acce7bf130a30876d27603738ac39f140993246b25b3"
+    url "https://files.pythonhosted.org/packages/0f/86/e19659527668d70be91d0369aeaa055b4eb396b0f387a4f92293a20035bd/pycparser-2.20.tar.gz"
+    sha256 "2d475327684562c3a96cc71adf7dc8c4f0565175cf86b6d7a404ff4c771f15f0"
   end
 
   resource "PyNaCl" do
@@ -167,8 +167,8 @@ class Mzo < Formula
   end
 
   resource "ujson" do
-    url "https://files.pythonhosted.org/packages/16/c4/79f3409bc710559015464e5f49b9879430d8f87498ecdc335899732e5377/ujson-1.35.tar.gz"
-    sha256 "f66073e5506e91d204ab0c614a148d5aa938bdbf104751be66f8ad7a222f5f86"
+    url "https://files.pythonhosted.org/packages/a5/5d/8c7d86226c20dc9205451fa0cd3ccc4982e339981c31f87974853754edfc/ujson-2.0.1.tar.gz"
+    sha256 "0a88069adf9f99acb301c9902c7e31f73cd928f63a03657805a9e79e3b391f44"
   end
 
   resource "uvloop" do
