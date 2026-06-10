@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Gurl</title>
-    <link>https://raw.githubusercontent.com/jamesstidard/homebrew-formulas/main/appcasts/gurl.xml</link>
+    <link>https://raw.githubusercontent.com/jamesstidard/homebrew-formulas/master/appcasts/gurl.xml</link>
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.8</title>
-      <pubDate>Wed, 10 Jun 2026 19:46:30 +0000</pubDate>
-      <sparkle:version>0.1.8</sparkle:version>
-      <sparkle:shortVersionString>0.1.8</sparkle:shortVersionString>
+      <title>Version 0.1.9</title>
+      <pubDate>Wed, 10 Jun 2026 19:50:50 +0000</pubDate>
+      <sparkle:version>0.1.9</sparkle:version>
+      <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.8/Gurl-0.1.8.zip"
-        length="3061932"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.9/Gurl-0.1.9.zip"
+        length="3061943"
         type="application/octet-stream"
-        sparkle:edSignature="X3lAExkPVMxq8yvwSnqK3CLRN5XXu130XLOPF7svCxImbeI+Z5Tv6WcknhLW8dRKu8qcfpMIyhDchsiWzsAuAA==" />
+        sparkle:edSignature="S0yZ8QRp9XVTb4i7dWwW+pASFX4s90PbzU4tWoCRARmHUR+MZxBtmU3VjG3ZPnMMrHC6Pf6x+eQpODef7r8iDw==" />
     </item>
   </channel>
 </rss>
