@@ -6,16 +6,18 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.20</title>
-      <pubDate>Fri, 12 Jun 2026 19:50:39 +0000</pubDate>
-      <sparkle:version>0.1.20</sparkle:version>
-      <sparkle:shortVersionString>0.1.20</sparkle:shortVersionString>
+      <title>Version 0.1.21</title>
+      <pubDate>Fri, 12 Jun 2026 19:54:25 +0000</pubDate>
+      <sparkle:version>0.1.21</sparkle:version>
+      <sparkle:shortVersionString>0.1.21</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>Sparkle release notes generated from git log</li></ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.20/Gurl-0.1.20.zip"
-        length="3137780"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.21/Gurl-0.1.21.zip"
+        length="3137824"
         type="application/octet-stream"
-        sparkle:edSignature="wL/PZ0Pki01TgcHV659Qtj4tiPmCW9SLhw0uNM5vxU82FrBKV0JfCBjqYWT2+pc1KM9MgGpEUpnL2Mc8WhiWAA==" />
+        sparkle:edSignature="0CaRtDAuEvgyOpp6tO/GtcKRJ0qYGcw2AkDyJ0k2RylqIeTHETRtoBitofxA+fYpz9SW4Uwh78TTVDAGICygBw==" />
     </item>
   </channel>
 </rss>
