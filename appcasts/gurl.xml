@@ -6,19 +6,18 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.23</title>
-      <pubDate>Sun, 14 Jun 2026 14:58:21 +0000</pubDate>
-      <sparkle:version>0.1.23</sparkle:version>
-      <sparkle:shortVersionString>0.1.23</sparkle:shortVersionString>
+      <title>Version 0.1.24</title>
+      <pubDate>Sun, 14 Jun 2026 15:14:56 +0000</pubDate>
+      <sparkle:version>0.1.24</sparkle:version>
+      <sparkle:shortVersionString>0.1.24</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Snappier tab + file-tree clicks</li>
-<li>✅ Update TODO list: mark light theme and tab switching performance as complete</li></ul>]]></description>
+<li>Rewrite examples as a coffee-shop API project</li></ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.23/Gurl-0.1.23.zip"
-        length="3145790"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.24/Gurl-0.1.24.zip"
+        length="3146830"
         type="application/octet-stream"
-        sparkle:edSignature="NPdLvjcQ0fuHO7xLpxFDzYmvOeFV+Dqsgnr87h3IqNMvAtUUbmG8BPZrZJRwLKePBQaSID1BZ6xtHOsdwAJ7Dg==" />
+        sparkle:edSignature="2+QFbB1+d3GkYUlQNwnLsV8+8ZJp/3FmAiXYhd+I6Awv71nfT3UhYNTxPQ4CCyj2VyivT9mVpkCNx8ktkU72Aw==" />
     </item>
   </channel>
 </rss>
