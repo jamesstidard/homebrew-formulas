@@ -6,19 +6,23 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.25</title>
-      <pubDate>Sun, 14 Jun 2026 16:54:23 +0000</pubDate>
-      <sparkle:version>0.1.25</sparkle:version>
-      <sparkle:shortVersionString>0.1.25</sparkle:shortVersionString>
+      <title>Version 0.1.26</title>
+      <pubDate>Sun, 14 Jun 2026 23:41:37 +0000</pubDate>
+      <sparkle:version>0.1.26</sparkle:version>
+      <sparkle:shortVersionString>0.1.26</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Variable hover popover gets a speech-bubble look</li>
-<li>Quick-switch shortcuts: ⌘1–9 tabs, ⌥1–9 environments</li></ul>]]></description>
+<li>Undefined variables stay inline-only — no line tint or run block</li>
+<li>Resolve hurlfmt path explicitly for parse diagnostics</li>
+<li>Flatten auth examples into the main numbered run</li>
+<li>Make auth/refresh.hurl runnable standalone</li>
+<li>Filter TODO commits out of release notes</li>
+</ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.25/Gurl-0.1.25.zip"
-        length="3161857"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.26/Gurl-0.1.26.zip"
+        length="3162290"
         type="application/octet-stream"
-        sparkle:edSignature="VWy5yHP4WQgJaW1Nw/qHBwsonj0cwFukJSuorHrUoKobJmQ466LsMIB8D0W/CGwp6I9p9jyLFViL4Y7WtC+rCg==" />
+        sparkle:edSignature="I0ovqmV90vmxARkr33LWWqlaTn+ewrea1OA0tNYckVqyuDoFVmkGzFQv98oVDWqJ+VXsm+cKNYxjIXbj+j0NAQ==" />
     </item>
   </channel>
 </rss>
