@@ -6,19 +6,20 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.27</title>
-      <pubDate>Sun, 14 Jun 2026 23:47:08 +0000</pubDate>
-      <sparkle:version>0.1.27</sparkle:version>
-      <sparkle:shortVersionString>0.1.27</sparkle:shortVersionString>
+      <title>Version 0.1.28</title>
+      <pubDate>Mon, 15 Jun 2026 19:50:02 +0000</pubDate>
+      <sparkle:version>0.1.28</sparkle:version>
+      <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Silence the system beep on unbound ⌘0–9 / ⌥0–9</li>
+<li>Hide files via exclude_files (⌘⇧.) and click folders to toggle</li>
+<li>Layered settings.toml replaces .gurl/environments.json</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.27/Gurl-0.1.27.zip"
-        length="3161717"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.28/Gurl-0.1.28.zip"
+        length="5234747"
         type="application/octet-stream"
-        sparkle:edSignature="pjM++kVBua3ltGneb8F8QSq9BReCVsVS5NONuj2loZ4b7dqIaaj9d2wT+UfgbnR3eC5XJFPBiVkeea0lMLrlAQ==" />
+        sparkle:edSignature="wM0YtnBCzJy2wpFxUIG9QYtrF/VsXELvhjrK31N0lTN6a/3slZSq4WMPgtO1l/W4N9g+IhMWiNpa7ieFwd8dAA==" />
     </item>
   </channel>
 </rss>
