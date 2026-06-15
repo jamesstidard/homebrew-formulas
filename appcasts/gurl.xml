@@ -6,20 +6,20 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.28</title>
-      <pubDate>Mon, 15 Jun 2026 19:50:02 +0000</pubDate>
-      <sparkle:version>0.1.28</sparkle:version>
-      <sparkle:shortVersionString>0.1.28</sparkle:shortVersionString>
+      <title>Version 0.1.29</title>
+      <pubDate>Mon, 15 Jun 2026 19:58:50 +0000</pubDate>
+      <sparkle:version>0.1.29</sparkle:version>
+      <sparkle:shortVersionString>0.1.29</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Hide files via exclude_files (⌘⇧.) and click folders to toggle</li>
-<li>Layered settings.toml replaces .gurl/environments.json</li>
+<li>Tighter spacing above the run history dropdown</li>
+<li>✨ Update launch.json for consistent workspace folder and preLaunchTask naming ✅ Mark 'hide files from tee with regex' as completed in TODO.md</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.28/Gurl-0.1.28.zip"
-        length="5234747"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.29/Gurl-0.1.29.zip"
+        length="5234693"
         type="application/octet-stream"
-        sparkle:edSignature="wM0YtnBCzJy2wpFxUIG9QYtrF/VsXELvhjrK31N0lTN6a/3slZSq4WMPgtO1l/W4N9g+IhMWiNpa7ieFwd8dAA==" />
+        sparkle:edSignature="ys8LtD7rmeG/BT3U81GIRWjaDziLknA8eeCjEO2UXDVnNndI1zKlnBF6Y/b4cX+vN425Gb12OnVVaS8UchfiBg==" />
     </item>
   </channel>
 </rss>
