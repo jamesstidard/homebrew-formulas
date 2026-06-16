@@ -6,22 +6,21 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.32</title>
-      <pubDate>Tue, 16 Jun 2026 19:44:50 +0000</pubDate>
-      <sparkle:version>0.1.32</sparkle:version>
-      <sparkle:shortVersionString>0.1.32</sparkle:shortVersionString>
+      <title>Version 0.1.33</title>
+      <pubDate>Tue, 16 Jun 2026 20:38:59 +0000</pubDate>
+      <sparkle:version>0.1.33</sparkle:version>
+      <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Docs site: SPA routing fix, prune CLI page, link to docs from landing</li>
-<li>Add common Node log patterns to docs gitignore</li>
-<li>VuePress promo site + docs under docs/</li>
-<li>⌘↩ inserts an empty newline below and ⌘⇧V opens Variables</li>
+<li>Help menu: Documentation + Contact Support entries</li>
+<li>Home tab title reads "A GUI for Hurl"</li>
+<li>Drop custom Lightbox — browsers' native image zoom does the job</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.32/Gurl-0.1.32.zip"
-        length="5239059"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.33/Gurl-0.1.33.zip"
+        length="5240215"
         type="application/octet-stream"
-        sparkle:edSignature="CkqUrjBPkJx6xkYkzrihQ7Nw3ogTlivX27BiLaSGOjZk6dhZIDe85guEaz6xXcQaXFXFRYUAP+GzbENlg4r0AQ==" />
+        sparkle:edSignature="TtLBkwMAFJuCoS8FSUfdRbJHf4vP7/fyd0/pnGznWePmZ2n6RnO0gRSVbTmTSL6Q4c5n0WspR4ZejmHPJ165BQ==" />
     </item>
   </channel>
 </rss>
