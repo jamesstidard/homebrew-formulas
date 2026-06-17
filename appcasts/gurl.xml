@@ -6,20 +6,21 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.34</title>
-      <pubDate>Wed, 17 Jun 2026 17:52:09 +0000</pubDate>
-      <sparkle:version>0.1.34</sparkle:version>
-      <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
+      <title>Version 0.1.35</title>
+      <pubDate>Wed, 17 Jun 2026 18:59:44 +0000</pubDate>
+      <sparkle:version>0.1.35</sparkle:version>
+      <sparkle:shortVersionString>0.1.35</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Multi-window: launch new instances via LaunchServices</li>
-<li>Docs site: brand purple accent + fresher hero screenshot</li>
+<li>Dismiss the variable-hover bubble on tab change</li>
+<li>Cancel stops the whole workspace queue, not just the current file</li>
+<li>Single-process multi-window: one dock tile for all windows</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.34/Gurl-0.1.34.zip"
-        length="5241133"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.35/Gurl-0.1.35.zip"
+        length="5253271"
         type="application/octet-stream"
-        sparkle:edSignature="oDghDzQVQ6+7WrLibxl7LuQnJJq4AbGFLAF6OTlHzW5oc5oOpDaLnF4xd1W3W97ar8Xc5NSqeZXvE9WZS/owDQ==" />
+        sparkle:edSignature="T7cxTlOfgOaWh4TGWhkWERZp5wfDbAKd/U0rVKv0TsIm0lYwaAg811Nw5n+38fnCRs+4BlPiKFNH447rPonCBg==" />
     </item>
   </channel>
 </rss>
