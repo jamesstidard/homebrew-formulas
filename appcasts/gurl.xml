@@ -6,21 +6,20 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.33</title>
-      <pubDate>Tue, 16 Jun 2026 20:38:59 +0000</pubDate>
-      <sparkle:version>0.1.33</sparkle:version>
-      <sparkle:shortVersionString>0.1.33</sparkle:shortVersionString>
+      <title>Version 0.1.34</title>
+      <pubDate>Wed, 17 Jun 2026 17:52:09 +0000</pubDate>
+      <sparkle:version>0.1.34</sparkle:version>
+      <sparkle:shortVersionString>0.1.34</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Help menu: Documentation + Contact Support entries</li>
-<li>Home tab title reads "A GUI for Hurl"</li>
-<li>Drop custom Lightbox — browsers' native image zoom does the job</li>
+<li>Multi-window: launch new instances via LaunchServices</li>
+<li>Docs site: brand purple accent + fresher hero screenshot</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.33/Gurl-0.1.33.zip"
-        length="5240215"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.34/Gurl-0.1.34.zip"
+        length="5241133"
         type="application/octet-stream"
-        sparkle:edSignature="TtLBkwMAFJuCoS8FSUfdRbJHf4vP7/fyd0/pnGznWePmZ2n6RnO0gRSVbTmTSL6Q4c5n0WspR4ZejmHPJ165BQ==" />
+        sparkle:edSignature="oDghDzQVQ6+7WrLibxl7LuQnJJq4AbGFLAF6OTlHzW5oc5oOpDaLnF4xd1W3W97ar8Xc5NSqeZXvE9WZS/owDQ==" />
     </item>
   </channel>
 </rss>
