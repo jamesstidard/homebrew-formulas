@@ -6,21 +6,19 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.37</title>
-      <pubDate>Wed, 17 Jun 2026 19:58:41 +0000</pubDate>
-      <sparkle:version>0.1.37</sparkle:version>
-      <sparkle:shortVersionString>0.1.37</sparkle:shortVersionString>
+      <title>Version 0.1.38</title>
+      <pubDate>Wed, 17 Jun 2026 20:40:23 +0000</pubDate>
+      <sparkle:version>0.1.38</sparkle:version>
+      <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Render hurl-formatted blocks via NSTextView instead of SwiftUI Text</li>
-<li>Scroll the output panel back to the top on tab switch</li>
-<li>Each editor tab remembers its own scroll position</li>
+<li>Stop re-running env auto-seed past the first workspace open</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.37/Gurl-0.1.37.zip"
-        length="5256859"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.38/Gurl-0.1.38.zip"
+        length="5256610"
         type="application/octet-stream"
-        sparkle:edSignature="U0AnhmZkCBTNHgPgL3JQTf0mSARh3LKpg/5cgMtHk/bvKwqaJmtyRGpxKUbKV7Y56Bky9DNomI9+8OImDtFJCA==" />
+        sparkle:edSignature="MwZLxF4tOo06zuYpaw5y2915hzNKxMrouF07OHzh2DWIuzuv2PUag+JfC3CgK1/y5BSI0GVWQFCkkGGyyarEDg==" />
     </item>
   </channel>
 </rss>
