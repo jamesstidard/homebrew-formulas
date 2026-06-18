@@ -1,6 +1,6 @@
 cask "gurl" do
-  version "0.1.38"
-  sha256 "ac2c5ebce98cf6267cee3b5a4c3aab56798af5d3e1b2933dd1b69ea8da56ceac"
+  version "0.1.39"
+  sha256 "01488027cf03664dfaaa32de189b6814bdd5feea12d0be4cd7be4332250e8ae1"
 
   url "https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v#{version}/Gurl-#{version}.zip"
   name "Gurl"

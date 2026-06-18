@@ -6,19 +6,20 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.38</title>
-      <pubDate>Wed, 17 Jun 2026 20:40:23 +0000</pubDate>
-      <sparkle:version>0.1.38</sparkle:version>
-      <sparkle:shortVersionString>0.1.38</sparkle:shortVersionString>
+      <title>Version 0.1.39</title>
+      <pubDate>Thu, 18 Jun 2026 08:34:29 +0000</pubDate>
+      <sparkle:version>0.1.39</sparkle:version>
+      <sparkle:shortVersionString>0.1.39</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Stop re-running env auto-seed past the first workspace open</li>
+<li>Examples: split credentials per env + rename Beta → Staging</li>
+<li>Docs: rewrite env auto-discovery to match new one-shot behaviour</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.38/Gurl-0.1.38.zip"
-        length="5256610"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.39/Gurl-0.1.39.zip"
+        length="5256617"
         type="application/octet-stream"
-        sparkle:edSignature="MwZLxF4tOo06zuYpaw5y2915hzNKxMrouF07OHzh2DWIuzuv2PUag+JfC3CgK1/y5BSI0GVWQFCkkGGyyarEDg==" />
+        sparkle:edSignature="AJkYDiW5YhPry32KaJGzNr6qBHlExc2fwQ6/wfCtQz2Nui4Y1N+BQPkQBK30Eibg8VioFkiAVZQxybjO7qa7Ag==" />
     </item>
   </channel>
 </rss>
