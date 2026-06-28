@@ -6,19 +6,20 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.41</title>
-      <pubDate>Thu, 18 Jun 2026 10:42:32 +0000</pubDate>
-      <sparkle:version>0.1.41</sparkle:version>
-      <sparkle:shortVersionString>0.1.41</sparkle:shortVersionString>
+      <title>Version 0.1.42</title>
+      <pubDate>Sun, 28 Jun 2026 20:22:51 +0000</pubDate>
+      <sparkle:version>0.1.42</sparkle:version>
+      <sparkle:shortVersionString>0.1.42</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Cheatsheet: feature-by-feature syntax reference, illustrative only</li>
+<li>Move gutter outside the scroll view to fix horizontal scroll gap</li>
+<li>Truncate long variable hover values with a centred ellipsis</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.41/Gurl-0.1.41.zip"
-        length="5258769"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.42/Gurl-0.1.42.zip"
+        length="5261784"
         type="application/octet-stream"
-        sparkle:edSignature="lR69gOtsmq0EEnxXAAJEUkK2ngDYy03G4o1RUrGyYUwte6u0ToWY9mpCdzxjG96Zjqltxj7R166p7JRxLUS6Bg==" />
+        sparkle:edSignature="/UjHvnj+gdxOVfwP3IeplYCmui1ADRjcy7e2EXR/cDiNIriF22EZJRDkKGRzQ1EBT2e7CbF/86PnpuEylh7XDQ==" />
     </item>
   </channel>
 </rss>
