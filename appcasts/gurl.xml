@@ -6,20 +6,22 @@
     <description>Native macOS GUI for editing and running hurl files</description>
     <language>en</language>
     <item>
-      <title>Version 0.1.43</title>
-      <pubDate>Thu, 02 Jul 2026 19:38:09 +0000</pubDate>
-      <sparkle:version>0.1.43</sparkle:version>
-      <sparkle:shortVersionString>0.1.43</sparkle:shortVersionString>
+      <title>Version 0.1.44</title>
+      <pubDate>Thu, 02 Jul 2026 19:57:53 +0000</pubDate>
+      <sparkle:version>0.1.44</sparkle:version>
+      <sparkle:shortVersionString>0.1.44</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>Improved window lifecycle</li>
-<li>move todo to project root</li>
+<li>Splice cross-folder drops into the target folder's ordering</li>
+<li>Fix internal-drop guard against trailing directory slashes</li>
+<li>Move files across folders in the tree without refocusing the workspace</li>
+<li>Track file renames in open tabs; pin hover font to editor's</li>
 </ul>]]></description>
       <enclosure
-        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.43/Gurl-0.1.43.zip"
-        length="5271552"
+        url="https://github.com/jamesstidard/homebrew-formulas/releases/download/gurl-v0.1.44/Gurl-0.1.44.zip"
+        length="5278976"
         type="application/octet-stream"
-        sparkle:edSignature="xZIWJh4z4bfCegU7fwTB3it4eCYQ1agu/XSq1+jAqvGLrJPESPZj0wEyD82mJ9RUyEckdBPh+q6nZvLwlQvVCg==" />
+        sparkle:edSignature="jdhRIrkes+Tpl6cZLqWRpxTFQo7EQmIMT73OME0M4KpRUr+02CPWGKd/pynr5aMvBiheKYFQYTA2lmZZTmHzCQ==" />
     </item>
   </channel>
 </rss>
